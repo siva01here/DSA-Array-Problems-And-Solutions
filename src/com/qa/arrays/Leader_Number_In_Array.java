@@ -9,6 +9,8 @@ public class Leader_Number_In_Array {
 	
 	public static void findLeaderNumber(int[] arr)
 	{
+		//Leader number is a number which is greater than all numbers to its right side
+		//Right most element in an array will always be the leader number
 		int leaderNum=arr[arr.length-1];
 		
 		System.out.print("Leader number is : "+leaderNum+" ");
